@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZMView_Example' do
+  pod 'SDWebImage'
+  pod 'ZMView', :path => '../'
+
+  target 'ZMView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

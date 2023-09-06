@@ -1,0 +1,25 @@
+PODS:
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+  - ZMView (0.1.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - ZMView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ZMView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  ZMView: ccd4856ed7424d88fc312c9bb9a6d5291ba08135
+
+PODFILE CHECKSUM: 0dab258880f95538fabc4fae2d2d32072d59dd27
+
+COCOAPODS: 1.12.1
