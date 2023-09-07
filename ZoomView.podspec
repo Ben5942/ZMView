@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZoomView"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A short description of ZMView."
 
   # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = 'ZoomView'
+  spec.source_files = 'Demo/ZoomView/Lib'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

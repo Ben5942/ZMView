@@ -20,11 +20,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		63B23C822AA8CED300B13FC6 /* ZMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B23C812AA8CED300B13FC6 /* ZMView.m */; };
-		63B23C852AA8CEE200B13FC6 /* ZMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B23C842AA8CEE200B13FC6 /* ZMCell.m */; };
-		63B23C882AA8CF2D00B13FC6 /* ZMCellImgV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B23C872AA8CF2D00B13FC6 /* ZMCellImgV.m */; };
 		63B23C8B2AA8D74600B13FC6 /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B23C892AA8D74600B13FC6 /* demo2.png */; };
 		63B23C8C2AA8D74600B13FC6 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B23C8A2AA8D74600B13FC6 /* demo1.png */; };
+		63B23C9D2AAA5C3800B13FC6 /* ZMCellImgV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B23C972AAA5C3800B13FC6 /* ZMCellImgV.m */; };
+		63B23C9E2AAA5C3800B13FC6 /* ZMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B23C9B2AAA5C3800B13FC6 /* ZMView.m */; };
+		63B23C9F2AAA5C3800B13FC6 /* ZMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B23C9C2AAA5C3800B13FC6 /* ZMCell.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7CC7CAC765F3334F7E242F20 /* Pods_ZMView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA225B923752F0849D10CD2 /* Pods_ZMView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -66,14 +66,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63B23C802AA8CED300B13FC6 /* ZMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMView.h; sourceTree = "<group>"; };
-		63B23C812AA8CED300B13FC6 /* ZMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMView.m; sourceTree = "<group>"; };
-		63B23C832AA8CEE200B13FC6 /* ZMCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCell.h; sourceTree = "<group>"; };
-		63B23C842AA8CEE200B13FC6 /* ZMCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCell.m; sourceTree = "<group>"; };
-		63B23C862AA8CF2D00B13FC6 /* ZMCellImgV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCellImgV.h; sourceTree = "<group>"; };
-		63B23C872AA8CF2D00B13FC6 /* ZMCellImgV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCellImgV.m; sourceTree = "<group>"; };
 		63B23C892AA8D74600B13FC6 /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
 		63B23C8A2AA8D74600B13FC6 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		63B23C972AAA5C3800B13FC6 /* ZMCellImgV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCellImgV.m; sourceTree = "<group>"; };
+		63B23C982AAA5C3800B13FC6 /* ZMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMView.h; sourceTree = "<group>"; };
+		63B23C992AAA5C3800B13FC6 /* ZMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCell.h; sourceTree = "<group>"; };
+		63B23C9A2AAA5C3800B13FC6 /* ZMCellImgV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCellImgV.h; sourceTree = "<group>"; };
+		63B23C9B2AAA5C3800B13FC6 /* ZMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMView.m; sourceTree = "<group>"; };
+		63B23C9C2AAA5C3800B13FC6 /* ZMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCell.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C1DD797EEF018EC27B9012D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -111,6 +111,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				63B23C962AAA5C3800B13FC6 /* Lib */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZMView */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -155,12 +156,6 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				63B23C802AA8CED300B13FC6 /* ZMView.h */,
-				63B23C812AA8CED300B13FC6 /* ZMView.m */,
-				63B23C832AA8CEE200B13FC6 /* ZMCell.h */,
-				63B23C842AA8CEE200B13FC6 /* ZMCell.m */,
-				63B23C862AA8CF2D00B13FC6 /* ZMCellImgV.h */,
-				63B23C872AA8CF2D00B13FC6 /* ZMCellImgV.m */,
 			);
 			name = "Example for ZMView";
 			path = ZMView;
@@ -204,6 +199,20 @@
 				9C1DD797EEF018EC27B9012D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		63B23C962AAA5C3800B13FC6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				63B23C972AAA5C3800B13FC6 /* ZMCellImgV.m */,
+				63B23C982AAA5C3800B13FC6 /* ZMView.h */,
+				63B23C992AAA5C3800B13FC6 /* ZMCell.h */,
+				63B23C9A2AAA5C3800B13FC6 /* ZMCellImgV.h */,
+				63B23C9B2AAA5C3800B13FC6 /* ZMView.m */,
+				63B23C9C2AAA5C3800B13FC6 /* ZMCell.m */,
+			);
+			name = Lib;
+			path = ZMView/Lib;
 			sourceTree = "<group>";
 		};
 		7836A1ED4D03BF96A9F42A26 /* Pods */ = {
@@ -393,11 +402,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZMAppDelegate.m in Sources */,
-				63B23C822AA8CED300B13FC6 /* ZMView.m in Sources */,
+				63B23C9D2AAA5C3800B13FC6 /* ZMCellImgV.m in Sources */,
+				63B23C9F2AAA5C3800B13FC6 /* ZMCell.m in Sources */,
 				6003F5A7195388D20070C39A /* ZMViewController.m in Sources */,
-				63B23C852AA8CEE200B13FC6 /* ZMCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				63B23C882AA8CF2D00B13FC6 /* ZMCellImgV.m in Sources */,
+				63B23C9E2AAA5C3800B13FC6 /* ZMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
