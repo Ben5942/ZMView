@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "ZMView"
+  spec.name         = "ZoomView"
   spec.version      = "1.0.0"
   spec.summary      = "A short description of ZMView."
 
@@ -61,8 +61,7 @@ Pod::Spec.new do |spec|
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
-
-  spec.platform     = :ios
+  
   spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
@@ -89,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ZMView"
+  spec.source_files = './ZoomView'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
